@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Page() {
   return (
-    <div>
+    <div className="bg-blend-darken">
     <Image alt="BgImage"
    quality="50"
    layout="fill" src='/1330529.png' className=""/>

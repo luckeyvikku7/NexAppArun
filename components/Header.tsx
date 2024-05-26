@@ -22,7 +22,7 @@ const Header = () => {
 				<li className="md:px-4 md:py-2 hover:text-indigo-400"><a href="#">Contact</a></li>
 			</ul>
 		</div> */}
-    <h1 className='md:order-3 font-semibold text-white'>Get Nearest Treatment</h1>
+
 		<div className="order-2 md:order-3">
     <UserButton/>
 		</div>
