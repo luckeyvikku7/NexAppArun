@@ -31,3 +31,16 @@ body {
     text-wrap: balance;
   }
 }
+
+.HeartLogo{
+  text-align: center;
+  cursor: pointer;
+}
+
+.ResultCard{
+  margin: 10px;
+  background-color: #575757;
+  border-radius: 10px;
+  padding: 30px;
+  min-width: 350px;
+}
