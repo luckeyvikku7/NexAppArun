@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import TicketList from '@/components/card';
-import React from 'react'
+import React from 'react';
 import Image from 'next/image';
 
 const Heart = () => {
