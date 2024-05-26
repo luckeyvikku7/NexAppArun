@@ -21,7 +21,7 @@ const Heart = () => {
         {ShowClick &&  <Image
             onClick={() => handleClick()}
             style={{cursor: 'pointer'}}
-            className="HeartLogo animate-pulse dark:drop-shadow-[0_0_0.3rem_#FF7052]"
+            className="HeartLogo pt-20 animate-pulse dark:drop-shadow-[0_0_0.3rem_#FF7052]"
             src="/Heart.png"
             alt="Heart Logo"
             width={180}

@@ -9,8 +9,9 @@ export default function Home() {
 
   return (
         <div className=' min-h-screen bg-black '>
+          <div><Header/></div>
           <div className=" h-full w-full fixed bg-gradient-to-tr from-black to-gray" />
-        <div><Header/></div>
+        
         <div className=""><Heart/></div>
         </div>
   );

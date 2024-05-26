@@ -89,7 +89,7 @@ export default  function TicketList() {
       {data.map((ticket) => (
       <div key={ticket.id} class=" m-10 relative max-w-md rounded-lg bg-gradient-to-tr from-black to-slate-800 p-0.5 shadow-lg shadow-black hover:bg-gradient-to-tr hover:from-slate-800 hover:to-black hover:cursor-pointer">
       <div class=" bg-grey-800 p-7 rounded-md">
-          <h1 class="font-bold text-xl mb-2">{ticket.title}</h1>
+          <h1 class="font-bold text-l mb-2">{ticket.title}</h1>
           <h2>Distance :  {ticket.distance} km</h2>
       </div>
       </div>
