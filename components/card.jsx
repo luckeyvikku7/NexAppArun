@@ -77,7 +77,7 @@ export default  function TicketList() {
   return (
     <div>
          { ShowSpinner && 
-          <div class='pt-20 flex space-x-2 justify-center  bg-white h-screen '>
+          <div class='pt-20 flex space-x-2 justify-center   h-screen '>
  	            <span class='sr-only'>Loading...</span>
               <div class='h-8 w-8 bg-white rounded-full animate-bounce [animation-delay:-0.3s]'></div>
               <div class='h-8 w-8 bg-white rounded-full animate-bounce [animation-delay:-0.15s]'></div>
